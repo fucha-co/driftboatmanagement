@@ -682,7 +682,7 @@ ul.clients li img {
 .subfooter {color: #fff; font-size: 12px; font-family: "lucida grande"}
 .subfooter a.current-menu {color: #23C1F3}
 .subfooter a:hover {color: #eee}
-.hlight {color: #23C1F3; /* #34B489 */}
+.hlight, a.hlight {color: #23C1F3; /* #34B489 */}
 
 .mT0 {margin-top: 0px}
 .mB0 {margin-bottom: 0px}
