@@ -973,20 +973,20 @@
                 <script type="text/javascript" src="script/template/jquery.template.testimonial.js"></script>
                 <script type="text/javascript" src="script/public.js"></script>
 
-                <script type="text/javascript">
-                  var _gauges = _gauges || [];
-                  (function() {
-                    var t   = document.createElement('script');
-                    t.type  = 'text/javascript';
-                    t.async = true;
-                    t.id    = 'gauges-tracker';
-                    t.setAttribute('data-site-id', '53b27a5deddd5b02ac0121c4');
-                    t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-                    t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(t, s);
-                  })();
-                </script>
+          
+          <script defer>
+          (function(f, a, t, h, o, m){
+          a[h]=a[h]||function(){
+          (a[h].q=a[h].q||[]).push(arguments)
+          };
+          o=f.createElement('script'),
+          m=f.getElementsByTagName('script')[0];
+          o.async=1; o.src=t; o.id='fathom-script';
+          m.parentNode.insertBefore(o,m)
+          })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+          fathom('set', 'siteId', 'IPIOOZON');
+          fathom('trackPageview');
+          </script>
 
               </body>
 
